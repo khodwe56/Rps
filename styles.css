@@ -1,0 +1,109 @@
+<link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+
+
+
+*{
+	margin : 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	background: white;
+	padding: 20px;
+}
+
+header > h1{
+	color: #25272E;
+	font-family: Asap,sans-serif;
+	text-align: center;
+}
+
+body {
+	background-color: #00008B;
+}
+
+.sb {
+	margin: 15px auto;
+	border: 3px solid white;
+	width: 65px;
+	color: white;
+	font-size: 44px;
+	border-radius: 5px;
+	padding: 15px 20px;
+	font-family: Asap,sans-serif;
+
+}
+
+
+.bval {
+	background-color: #E25840;
+	color : white;
+	font-size: 14px;
+	padding:2px 10px;
+	font-family: Asap,sans-serif; 
+}
+
+#UserLabel {
+	position: absolute;
+	top: 180px;
+	left: 840px;
+}
+
+#ComputerLabel {
+	position: absolute;
+	top: 180px;
+	right: 800px;
+}
+
+.victoryreport{
+	font-size : 30px;
+	color: white;
+}
+
+.victoryreport > p{
+	text-align: center;
+	font-weight: bold;
+	font-family: Asap, sans-serif;
+}
+
+.options{
+	margin: 50px 0;
+	text-align: center;
+}
+
+.opt{
+	border: 4px solid white;
+	border-radius: 50%;
+	margin: 0 20px;
+	padding: 10px;
+	display: inline-block;
+}
+
+.opt:hover{
+	cursor: pointer;
+	background: pink;
+}
+
+#action-messenger{
+	text-align: center;
+	color: white;
+	font-family: Asap, sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.green-glow {
+	border: 4px solid #4dcc7d;
+	box-shadow: 0 0 10px #31b43a;
+}
+
+.red-glow{
+	border : 4px solid #fc121b;
+	box-shadow: 0 0 10px #d01115;
+}
+
+.gray-glow{
+	border:4px solid #464647;
+	box-shadow: 0 0 10px #25292b; 
+}
